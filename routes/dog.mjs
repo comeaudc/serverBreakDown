@@ -10,6 +10,7 @@ router.get('/', DogCrtl.ReadDog);
 
 //Update
 router.put('/:id', DogCrtl.UpdateDog);
+
 //Delete
 router.delete('/:id', DogCrtl.DeleteDog);
 
